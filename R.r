@@ -4,6 +4,8 @@ library(lattice)
 library(sp) 
 
 #总而言之咱就是说不要用ArcMap去处理.nc文件了
+#使用ArcMap去处理.nc文件极易出现各种各样的脑残问题，不要使用ArcMap去拆解.nc文件了
+#源代码来自：https://www.bilibili.com/read/cv15816238
 
 ncfile<-nc_open("G:/Geo_Data/SOM.nc") 
 
